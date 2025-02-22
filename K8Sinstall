@@ -89,9 +89,8 @@ yum list docker-ce --showduplicates | sort -r
 yum install -y docker-ce
 systemctl enable docker
 systemctl start docker
-docker加速器配置
+docke
 
-配置加速器文件
 ]# cat >> /etc/docker/daemon.json <<-EOF
 {
   "registry-mirrors": [
